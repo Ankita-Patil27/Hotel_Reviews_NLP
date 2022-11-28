@@ -1,4 +1,5 @@
 import warnings
+import nltk
 from nltk.corpus import stopwords
 import re
 from rake_nltk import Rake
