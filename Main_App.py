@@ -1,6 +1,5 @@
 import warnings
 from nltk.corpus import stopwords
-nltk.download('stopwords')
 import re
 from rake_nltk import Rake
 import pickle
