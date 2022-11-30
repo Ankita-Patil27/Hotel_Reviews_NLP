@@ -1,13 +1,10 @@
-import warnings
+import nltk
 from nltk.corpus import stopwords
 import re
 from rake_nltk import Rake
 import pickle
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
-
-# Warnings ignore 
-warnings.filterwarnings(action='ignore')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # loading the trained model
